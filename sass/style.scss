@@ -33,6 +33,10 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+
+            .header__location--icon{
+                margin-right: 10px;
+            }
         }
     }
 
@@ -109,17 +113,23 @@
         font-weight: 700;
         border-radius: 20px;
         margin-bottom: 20px;
+
+        .fonctionnement__btn--icon{
+            margin-right: 70px;
+        }
     }
 
     .footer{
         display: flex;
         flex-direction: column;
         background-color: #353535;
+        height: 186px;
 
-        .footer__logo{
-            margin-left: 10px;
-            width: 139px;
-            height: 27px;
+        .footer__h4{
+          font-family: Shrikhand;
+          font-weight: 400;
+          color: white;
+          margin-left: 10px;
         }
 
         .footer__link{
