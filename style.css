@@ -28,6 +28,9 @@
     justify-content: center;
     align-items: center;
   }
+  header .header__location .header__location--icon {
+    margin-right: 10px;
+  }
   .section {
     display: flex;
     flex-direction: column;
@@ -92,16 +95,21 @@
   border-radius: 20px;
   margin-bottom: 20px;
 }
+.fonctionnement__btn .fonctionnement__btn--icon {
+  margin-right: 70px;
+}
 
 .footer {
   display: flex;
   flex-direction: column;
   background-color: #353535;
+  height: 186px;
 }
-.footer .footer__logo {
+.footer .footer__h4 {
+  font-family: Shrikhand;
+  font-weight: 400;
+  color: white;
   margin-left: 10px;
-  width: 139px;
-  height: 27px;
 }
 .footer .footer__link {
   margin-left: 10px;
