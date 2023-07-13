@@ -1,6 +1,8 @@
-// Version mobile //
+//---- VERSION MOBILE ----//
 @media (min-width: 300px) {
-   
+
+  //-------- PAGE ACCUEIL -------//
+
   // Header & Location //
     header {
       display: flex;
@@ -66,10 +68,14 @@
       margin-right: 0.5rem;
     }
 
+//----- PAGE MENU ------//
 
-// Version tablette & Desktop //
+
+//----- VERSION TABLETTE & DESKTOP -----//
 @media (min-width: 1024px){
-// Footer //
+
+//-------- PAGE ACCUEIL -------//
+  // Footer //
     .flex {
     display: flex;
     flex-direction: row-reverse;
@@ -83,4 +89,6 @@
     gap: 30px;
   }
 }
+
+//----- PAGE MENU ------//
 }

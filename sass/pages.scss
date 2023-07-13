@@ -1,4 +1,6 @@
+//---- VERSION MOBILE ----//
 @media (min-width: 300px) {
+  //-------- PAGE ACCUEIL -------//
   .home {
     display: flex;
     flex-direction: column;
@@ -83,11 +85,30 @@
       }
     }
   }
+//----- PAGE MENU ------//
+
+img.img__intro{
+  width: 100%;
+  object-fit: cover;
 }
 
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
+.menu{
+  margin-top: -4rem;
+  border-radius: 2rem 2rem 0 0;
+  background-color: $gray-light;
+  position: relative
+
+  
+}
+
+
+
+
+}
+
+//----- VERSION TABLETTE & DESKTOP -----//
 @media (min-width: 1024px) {
+  //-------- PAGE ACCUEIL -------//
   .restaurant .restaurant__containeur .cards {
     display: flex;
     flex-wrap: wrap;
@@ -99,3 +120,6 @@
     width: 45%;
   }
 }
+
+
+// PAGES MENU //
