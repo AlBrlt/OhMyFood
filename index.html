@@ -10,26 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/style.css">
 </head>
-<div class="main-container">
-    <body>
-
+<body class="main-container">
+        <div class="white-background"></div>
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
 
         <header>
             <img src="assets/image/ohmyfood.png" alt="Logo de Booki" id="header__logo">
-            
         </header>
 
-        <main>
-            <section class="local">
+        <main> 
+            <div class="local">
                 <i class="fa-solid fa-location-dot local__icon"></i>
                 <span class="local__text">Paris, Belleville</span>
-            </section>
+            </div>
     
     
             <section class="home">
                 <h2 class="home__title">Réservez le menu qui<br>vous convient</h2>
                 <p class="home__sub">Découvrez des restaurants d’exception, sélectionnés par nos soins.</p>
-                <btn class="home__btn">Explorer nos restaurants</btn>
+                <div class="home__btn">Explorer nos restaurants</div>
             </section>
     
             <section class="tuto">
@@ -67,13 +68,16 @@
                                     <h3 class="card__title">La Palette du gout</h3>
                                     <span class="card__sub">Ménilmontant</span>
                                 </div>
-                                <div class="btn-like">
-                                    <i class="card__like far fa-heart fa-2x"></i>
+                                <div>
+                                    <div class="menu__btn">
+                                        <i class="menu__like far fa-heart fa-2x"></i>
+                                      </div>
                                 </div>
+                                
                             </div>
                         </a>
 
-                        <a class="card" href="#">
+                        <a class="card" href="Page-2.html">
                             <img src="assets/image/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La Note Enchantée" class="card__img">
                             <span class="card__new">Nouveau</span>
                             <div class="card__des">
@@ -87,7 +91,7 @@
                             </div>
                         </a>
 
-                        <a class="card" href="#">
+                        <a class="card" href="Page-3.html">
                             <img src="assets/image/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A La Française" class="card__img">
                             <div class="card__des">
                                 <div class="card__content">
@@ -100,14 +104,14 @@
                             </div>
                         </a>
 
-                        <a class="card" href="#">
+                        <a class="card" href="Page-4.html">
                             <img src="assets/image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le Délice des Sens" class="card__img">
                             <div class="card__des">
                                 <div class="card__content">
                                     <h3 class="card__title">Le délice des sens</h3>
                                     <span class="card__sub">Folie-Méricourt</span>
                                 </div>
-                                <div class="mcard__btn">
+                                <div class="card__btn">
                                     <i class="card__like far fa-heart fa-2x"></i>
                                 </div>
                             </div>
